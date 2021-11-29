@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{5D386C7D-9C7B-4117-BF9B-5D4C565D61E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{5FF4B54E-E1CB-44A2-BB73-1DDFEE58D23E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{4581C94B-C725-4F3C-8259-56A0055209B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{80904ACA-D8AC-481A-9FDD-95672C15704F}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Training.SitecoreSXA.Web", "src\Project\Training.SitecoreSXA.Web\Training.SitecoreSXA.Web.csproj", "{E110386C-0E5F-4536-99EE-FDD79AE23574}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E110386C-0E5F-4536-99EE-FDD79AE23574}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E110386C-0E5F-4536-99EE-FDD79AE23574}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E110386C-0E5F-4536-99EE-FDD79AE23574}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E110386C-0E5F-4536-99EE-FDD79AE23574}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E110386C-0E5F-4536-99EE-FDD79AE23574} = {4581C94B-C725-4F3C-8259-56A0055209B8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F6C8BB4D-39DD-4446-B993-ABF7FD32C4F1}
+	EndGlobalSection
+EndGlobal
